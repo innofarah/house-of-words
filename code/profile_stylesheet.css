@@ -1,0 +1,51 @@
+body{
+        font-family: "Book Antiqua";
+        background-image: url('BdEayK-01.jpeg');
+        min-height: 100%;
+        position:relative;
+        scrolling : none;
+        color: white;
+        background-position: center;
+        background-size: cover;
+		  }
+
+      
+       .column > div{
+        top: 0.1%;
+        float: left;
+        margin-top: 1%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        opacity:0.8;
+        background-color:rgba(249,194,95,.1); 
+        width:15%;
+        margin-left:70%;
+        border-radius:2%;
+        padding:8% 5% ;
+        height: 60%;
+        position: fixed;
+        overflow-x: hidden;
+        z-index: 1;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+        width: 100%;
+        display: block;
+        }
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
